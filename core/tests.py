@@ -8,5 +8,5 @@ class HomeViewTests(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(
             response.json(),
-            {"message": "🚀 Django CI/CD is running from scratch;!"},
+            {"message": "Django CI/CD is running successfully!"},
         )
