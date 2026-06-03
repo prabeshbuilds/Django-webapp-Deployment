@@ -1,4 +1,4 @@
-# Django Webapp Deployment
+# Django Webapp Deployment CI CD From Github Actions
 
 A simple Django application configured for Docker, Docker Compose, GitHub Actions CI, Docker Hub publishing, and EC2 deployment.
 
