@@ -3,5 +3,5 @@ from django.http import JsonResponse
 
 def home(request):
     return JsonResponse({
-        "message": "Django CI/CD is running successfully!"
+        "message": "Django CI/CD is running successfullyyyyyy!"
     })
