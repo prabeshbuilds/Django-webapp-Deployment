@@ -45,3 +45,17 @@ def status(request):
         "database": "Connected",
         "server": "Healthy"
     })
+
+def metrics(request):
+    return JsonResponse({
+        "uptime": "24 hours",
+        "requests_handled": 1500,
+        "errors": 5
+    })
+
+def version(request):
+    return JsonResponse({
+        "application_version": "1.0.0",
+        "api_version": "v1",
+        "build_number": "2024-06-01"
+    })
